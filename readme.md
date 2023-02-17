@@ -1,10 +1,39 @@
-go mod init go-api-example ile proje olusturuldu \n
-go get github.com/julienschmidt/httprouter ile httprouter paketi eklendi \n
-go get gopkg.in/mgo.v2 mongodb baglanmamiza yardimci olan paket eklendi \n
-go get gopkg.in/mgo.v2/bson bazi sistemlerde eklenemediginden ne olur ne olmaz diye elle ekliyoruz \n
+#First Creation Commands
 
-mongod \n
+```
+go mod init go-api-example
+```
 
-go run main.go \n
+###ile proje olusturuldu
 
-//fonksiyon adindan sonra parantezde bosluk birakilirsa hata veriyor \n
+```
+go get github.com/julienschmidt/httprouter
+```
+
+###ile httprouter paketi eklendi
+
+```
+go get gopkg.in/mgo.v2
+```
+
+###mongodb baglanmamiza yardimci olan paket eklendi
+
+```
+go get gopkg.in/mgo.v2/bson
+```
+
+###bazi sistemlerde eklenemediginden ne olur ne olmaz diye elle ekliyoruz
+
+```
+mongod //mongodb baslatmak icin
+```
+
+```
+go run main.go
+```
+
+```
+//proje baslatmak icin
+
+//fonksiyon adindan sonra parantezde bosluk birakilirsa hata veriyor
+```
